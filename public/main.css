@@ -1,0 +1,101 @@
+body {
+    background-color: #88D4F220;
+}
+
+.center {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    color: #0B427A;
+    font-size: 1.2rem;
+}
+
+.flex-container {
+    gap: 10px;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.item:hover {
+    border-radius: 2%;
+    background-color: #88D4F240;
+}
+
+.main-page:hover {
+    opacity: 0.5;
+}
+
+a{
+    color: #0B427A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0B427A60;
+    cursor: pointer;
+}
+
+img {
+    height: 200px;
+}
+
+.centered-text {
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.main-form {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #0B427A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0B427A90;
+    --bs-btn-hover-border-color: #0B427A90;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0B427A50;
+    --bs-btn-active-border-color: #0B427A50;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-gradient: none;
+    --bs-btn-bg: #0B427A;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex-form {
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    h1 {
+      font-size: 1rem;
+    }  
+
+    .lead, .bold-name {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .image {
+        margin: auto;
+    }
+
+}
